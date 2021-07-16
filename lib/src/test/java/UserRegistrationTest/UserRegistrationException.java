@@ -1,6 +1,6 @@
 package UserRegistrationTest;
 
-public class UserRegistrationException extends Exception 
+public class UserRegistrationException extends Exception
 {
 	static String message;
     enum ExceptionType
@@ -8,7 +8,7 @@ public class UserRegistrationException extends Exception
         ENTERED_NULL, ENTERED_INVALID
     }
     ExceptionType type;
-    public UserRegistrationException(ExceptionType type,String message)
+    public UserRegistrationException(ExceptionType type,String message) 
     {
         super(message);
         this.type = type;
